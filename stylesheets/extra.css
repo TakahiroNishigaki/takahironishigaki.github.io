@@ -1,0 +1,52 @@
+/* =========================================
+   Ultra Dark Luxury Brown Theme
+   ========================================= */
+
+   :root > * {
+    /* ===== Background ===== */
+    --md-default-bg-color: #120f0d;        /* ほぼ黒のブラウン */
+    --md-default-bg-color--light: #181411;
+
+    /* ===== Text ===== */
+    --md-default-fg-color: #d6cdc4;        /* ソフトアイボリー */
+    --md-default-fg-color--light: #c2b8ae;
+    --md-default-fg-color--lighter: #a99f96;
+    --md-default-fg-color--lightest: #8f857c;
+
+    --md-default-fg-color--border: #2a2420;
+
+    /* ===== Primary (Header / Active) ===== */
+    --md-primary-fg-color: #6f5a3f;        /* ダークブラス */
+    --md-primary-fg-color--light: #8a7252;
+    --md-primary-fg-color--dark: #554532;
+
+    --md-primary-bg-color: #120f0d;
+
+    /* ===== Accent (Links / Hover) ===== */
+    --md-accent-fg-color: #a48a5e;         /* 抑えたゴールド */
+    --md-accent-fg-color--light: #bfa776;
+    --md-accent-fg-color--dark: #88704a;
+
+    /* ===== Navigation ===== */
+    --md-nav-bg-color: #0e0c0a;
+    --md-nav-fg-color: #cfc5bb;
+    --md-nav-fg-color--hover: #e0d4c4;
+    --md-nav-fg-color--active: #a48a5e;
+
+    /* ===== Code ===== */
+    --md-code-bg-color: #0b0a09;
+    --md-code-fg-color: #d1c8bf;
+
+    --md-code-hl-comment-color: #6e645b;
+    --md-code-hl-keyword-color: #a48a5e;
+    --md-code-hl-string-color: #8fa89a;
+    --md-code-hl-number-color: #b28f61;
+
+    /* ===== Typeset ===== */
+    --md-typeset-a-color: #a48a5e;
+    --md-typeset-mark-color: #2a221a;
+
+    /* ===== Admonition ===== */
+    --md-admonition-bg-color: #181310;
+    --md-admonition-fg-color: #d6cdc4;
+  }
