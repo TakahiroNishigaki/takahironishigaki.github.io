@@ -1,0 +1,60 @@
+/* 本文基準 */
+.md-typeset p {
+    /* font-size: 1rem; */
+    line-height: 1.7;
+  }
+
+  /* h1: ページタイトル */
+  .md-typeset h1 {
+    font-size: 2.1rem;
+    margin-top: 0;
+    margin-bottom: 1.2rem;
+    font-weight: 700;
+  }
+
+  /* h2: セクション */
+  .md-typeset h2 {
+    font-size: 1.6rem;
+    margin-top: 2.4rem;
+    margin-bottom: 0.8rem;
+    border-bottom: 2px solid var(--md-primary-fg-color);
+    padding-bottom: 0.2em;
+  }
+
+  /* h3: サブセクション */
+  .md-typeset h3 {
+    font-size: 1.3rem;
+    margin-top: 2.0rem;
+    margin-bottom: 0.6rem;
+    border-left: 4px solid var(--md-accent-fg-color);
+    padding-left: 0.6em;
+  }
+
+  /* h4: 論点・項目 */
+  .md-typeset h4 {
+    font-size: 1.1rem;        /* 本文より大きい */
+    margin-top: 1.6rem;
+    margin-bottom: 0.4rem;
+    font-weight: 600;
+  }
+
+  /* H4: 論点・条件 */
+.md-typeset h4::before {
+    content: "◆ ";
+    color: var(--md-accent-fg-color);
+    font-weight: 700;
+  }
+
+  /* h5: ラベル・条件・前提 */
+  .md-typeset h5 {
+    font-size: 1.05rem;       /* 本文よりわずかに大きい */
+    margin-top: 1.2rem;
+    margin-bottom: 0.3rem;
+    font-weight: 600;
+    color: var(--md-default-fg-color--light);
+  }
+/* H5: 補足・注記 */
+.md-typeset h5::before {
+    content: "■ ";
+    color: var(--md-default-fg-color--light);
+  }
