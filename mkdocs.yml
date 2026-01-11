@@ -1,0 +1,28 @@
+site_name: Wave and Phychology
+copyright: "&copy; 2025 Takahiro Nishigaki"
+theme:
+  name: material
+  footer: "© 2025 TakahiroNishigaki. All rights reserved."
+  palette:
+      primary: custom
+      scheme: slate
+  features:
+    - navigation.sections
+    - navigation.instant
+    # - navigation.indexes
+    # - navigation.tabs
+    - navigation.top
+    # - toc.integrate
+    - navigation.expand
+    - content.images.zoom
+extra_css:
+  - stylesheets/extra.css
+  - stylesheets/heading.css
+
+nav:
+  # - Home: index.md
+  # - Pattern: pattern/Wtopbottomのretracement.md
+  # - Pattern: pattern/Wtopbottomのretracement.md
+docs_dir: docs
+plugins:
+  - glightbox

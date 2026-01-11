@@ -1,0 +1,1 @@
+![Alt text](<retracement_of_wtop_and_bottom_asset/Pasted image 20251217204220.png>)

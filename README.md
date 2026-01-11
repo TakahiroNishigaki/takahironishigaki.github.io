@@ -1,1 +1,0 @@
-# takahironishigaki.github.io
